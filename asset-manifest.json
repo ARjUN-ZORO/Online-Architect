@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Online-Architect/static/css/main.02b2dd3a.css",
-    "main.js": "/Online-Architect/static/js/main.8414fa8d.js",
+    "main.js": "/Online-Architect/static/js/main.a2f0526f.js",
     "static/js/787.75d4f832.chunk.js": "/Online-Architect/static/js/787.75d4f832.chunk.js",
     "static/media/EWNS.png": "/Online-Architect/static/media/EWNS.0d8df038d1647d497da2.png",
     "index.html": "/Online-Architect/index.html",
     "main.02b2dd3a.css.map": "/Online-Architect/static/css/main.02b2dd3a.css.map",
-    "main.8414fa8d.js.map": "/Online-Architect/static/js/main.8414fa8d.js.map",
+    "main.a2f0526f.js.map": "/Online-Architect/static/js/main.a2f0526f.js.map",
     "787.75d4f832.chunk.js.map": "/Online-Architect/static/js/787.75d4f832.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02b2dd3a.css",
-    "static/js/main.8414fa8d.js"
+    "static/js/main.a2f0526f.js"
   ]
 }
