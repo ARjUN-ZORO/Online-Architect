@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Online-Architect/static/css/main.02b2dd3a.css",
+    "main.js": "/Online-Architect/static/js/main.c334e721.js",
+    "static/js/787.75d4f832.chunk.js": "/Online-Architect/static/js/787.75d4f832.chunk.js",
+    "static/media/EWNS.png": "/Online-Architect/static/media/EWNS.0d8df038d1647d497da2.png",
+    "index.html": "/Online-Architect/index.html",
+    "main.02b2dd3a.css.map": "/Online-Architect/static/css/main.02b2dd3a.css.map",
+    "main.c334e721.js.map": "/Online-Architect/static/js/main.c334e721.js.map",
+    "787.75d4f832.chunk.js.map": "/Online-Architect/static/js/787.75d4f832.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02b2dd3a.css",
+    "static/js/main.c334e721.js"
+  ]
+}
