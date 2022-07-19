@@ -84,3 +84,29 @@ body {
 	display: block;
 	background: pink;
 }
+.input-form {
+	border-width: 0;
+	border-bottom-width: 2px;
+	margin: 4px;
+	/* margin-top: 20px; */
+	font-size: 18px;
+}
+.input-form:focus-visible {
+	/* border: 0;
+	border-width: 0; */
+	outline: none;
+}
+.Lable-For-Input_feild {
+	position: absolute;
+	left: 0;
+	top: 12px;
+}
+::-webkit-file-upload-button {
+	background-image: linear-gradient(to right, #ff9f00, #f9eb00);
+	border-radius: 32px;
+	padding: 15px 40px;
+	border-width: 0;
+	box-shadow: rgb(255 159 0) 15px 10px 40px -17px;
+	height: 45px;
+	align-self: center;
+}

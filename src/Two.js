@@ -1,5 +1,4 @@
 import React from "react";
-import EWNS from "./Assets/img/EWNS.png";
 
 function Two() {
   return (
@@ -15,7 +14,7 @@ function Two() {
         style={{
           backgroundColor: "#ffffff",
           borderRadius: 16,
-          marginTop: 50,
+          margin: 50,
           padding: 20,
           width: 700,
           // height: 200,
@@ -96,48 +95,107 @@ function Two() {
             style={{
               marginTop: 50,
               marginBottom: 50,
-              width: 740,
-              height: 0,
-              borderBottom: 2,
-              borderBottomStyle: "dashed",
-              borderBottomColor: "black",
+              width: 640,
               right: 40,
               position: "relative",
+              backgroundColor: "#f4f4f4",
+              display: "flex",
+              //   justifyContent: "space-between",
+              paddingLeft: 50,
+              paddingRight: 50,
+              fontSize: 22,
+              paddingTop: 10,
+              paddingBottom: 10,
             }}
-          ></div>
+          >
+            <span style={{ marginRight: 90 }}>No. Floors</span>
+            <span style={{ marginRight: 230 }}>Details</span>
+            <span>Reference</span>
+          </div>
           <div
             style={{
               fontSize: 20,
               marginBottom: 50,
             }}
           >
-            <span style={{ marginRight: 20 }}>* Your Site Facing:</span>
-            <select
-              name=""
-              id=""
-              style={{
-                backgroundColor: "#ffffff",
-                padding: 5,
-                borderWidth: 1,
-                borderColor: "#000000",
-                borderRadius: 5,
-                width: 200,
-                fontWeight: "bold",
-              }}
-            >
-              <option value="">EAST</option>
-            </select>
+            <div style={{ display: "flex", marginBottom: 50 }}>
+              <label style={{ marginRight: 70 }}>Ground Floor :</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                style={{ marginRight: 120, height: 80, borderRadius: 16 }}
+              />
+              <input
+                type="button"
+                name=""
+                id=""
+                value="Upload"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to right, #ff9f00, #f9eb00)",
+                  borderRadius: 32,
+                  padding: "15px 40px",
+                  borderWidth: 0,
+                  boxShadow: "rgb(255 159 0) 15px 10px 40px -17px",
+                  height: 45,
+                  alignSelf: "center",
+                }}
+              />
+            </div>
+            <div style={{ display: "flex", marginBottom: 50 }}>
+              <label style={{ marginRight: 70 }}>Ground Floor :</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                style={{ marginRight: 120, height: 80, borderRadius: 16 }}
+              />
+              <input
+                type="button"
+                name=""
+                id=""
+                value="Upload"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to right, #ff9f00, #f9eb00)",
+                  borderRadius: 32,
+                  padding: "15px 40px",
+                  borderWidth: 0,
+                  boxShadow: "rgb(255 159 0) 15px 10px 40px -17px",
+                  height: 45,
+                  alignSelf: "center",
+                }}
+              />
+            </div>
+            <div style={{ display: "flex" }}>
+              <label style={{ marginRight: 70 }}>Ground Floor :</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                style={{ marginRight: 120, height: 80, borderRadius: 16 }}
+              />
+              <input
+                type="file"
+                name="file"
+                id="file"
+                placeholder="Upload"
+                style={
+                  {
+                    // backgroundImage:
+                    //   "linear-gradient(to right, #ff9f00, #f9eb00)",
+                    // borderRadius: 32,
+                    // padding: "15px 40px",
+                    // borderWidth: 0,
+                    // boxShadow: "rgb(255 159 0) 15px 10px 40px -17px",
+                    // height: 45,
+                    // alignSelf: "center",
+                  }
+                }
+              />
+            </div>
           </div>
-          <img
-            src={EWNS}
-            alt=""
-            srcset=""
-            style={{
-              width: 220,
-              position: "relative",
-              left: "-30px",
-            }}
-          />
           <div
             style={{
               display: "flex",

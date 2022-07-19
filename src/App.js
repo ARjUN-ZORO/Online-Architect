@@ -1,17 +1,30 @@
 import Logo from "./Assets/img/Logo.png";
-import EWNS from "./Assets/img/EWNS.png";
+
 import One from "./One";
 import "./App.css";
 import Two from "./Two";
+import Three from "./Three";
+import Four from "./Four";
+import Header from "./Header";
+import Hero from "./Hero";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <header>
         <nav>{/* <img src={Logo} alt="Logo" /> */}</nav>
       </header>
-      <main>
-        {/* <One /> */}
-        <Two />
+      <main style={{ width: "100%" }}>
+        <Router>
+          <Header />
+          {/* <Route path="/Online-Architect"> */}
+          <Hero />
+          <One />
+          <Two />
+          <Three />
+          <Four />
+          {/* </Route> */}
+        </Router>
         {/* <div className="row">
           <div class="col img_center">
             <img src="logo.png" style={{ width: "20%" }} alt="" />
